@@ -93,13 +93,13 @@ function checkAnswer(currentLevel) {
       $("body").removeClass("game-over")
     }, 200);
     $("h1").text("Haz perdido, Presiona una tecla para continuar.");
-    starOver();
+    startOver();
   }
 }
 
 
-// STAROVER
-function starOver() {
+// STARTOVER
+function startOver() {
   level = 0;
   gamePattern = [];
   userClickedPattern = [];
